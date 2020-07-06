@@ -37,8 +37,8 @@
 - sudo su - odoo12
 - git clone https://www.github.com/odoo/odoo --depth 1 --branch 12.0 /opt/odoo12/odoo
 - source odoo-venv/bin/activate
-- pip3 install wheel
-- pip3 install -r odoo/requirements.txt
+- pip install wheel
+- pip install -r odoo/requirements.txt
 - deactivate
 - mkdir /opt/odoo12/odoo-addons
 - exit
