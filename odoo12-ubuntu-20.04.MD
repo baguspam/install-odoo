@@ -4,7 +4,7 @@
 - sudo apt-get update
 - sudo apt-get upgrade
 - sudo apt install git python3-pip build-essential wget python3-dev python3-venv python3-wheel libxslt-dev libzip-dev libldap2-dev libsasl2-dev python3-setuptools node-less
-
+<br><br>
 > Install postgresql and configure
 - sudo apt-get install postgresql
 - sudo su - postgres
@@ -12,11 +12,11 @@
 - createuser --interactive --pwprompt
 - (input your username and password)
 - exit
-
+<br><br>
 > Install wkhtmlpdf
 - wget https://github.com/wkhtmltopdf/wkhtmltopdf/releases/download/0.12.5/wkhtmltox_0.12.5-1.bionic_amd64.deb
 - sudo apt install ./wkhtmltox_0.12.5-1.bionic_amd64.deb
-
+<br><br>
 > Install pyhton 3.6.9 (because python 3.8 default from ubuntu 20.04 not recomended)
 - sudo su
 - cd /usr/src
@@ -29,7 +29,7 @@
 (for check python version 3.6.9)
 - python3.6 -V 
 - sudo pip3.6 install virtualenv
-
+<br><br>
 > Install and configure odoo12 (note: it's git clone from odoo12 version latest (recomended) because new version many for bugs and error for installation)
 - sudo useradd -m -d /opt/odoo12 -U -r -s /bin/bash odoo12
 - cd /opt/odoo12
@@ -42,7 +42,7 @@
 - deactivate
 - mkdir /opt/odoo12/odoo-addons
 - exit
-
+<br><br>
 > Setup Config file for odoo12
 - sudo cp /opt/odoo12/odoo/debian/odoo.conf /etc/odoo12.conf
 - sudo nano /etc/odoo12.conf
@@ -56,7 +56,7 @@
 > db_password = change_password_postgre<br>
 > addons_path = /opt/odoo12/odoo/addons,/opt/odoo12/odoo-addons<br>
 - Crtl + x (for save and exit)
-
+<br><br>
 > Setup service for odoo12
 - sudo nano /etc/systemd/system/odoo12.service
 - Copy and paste the following configuration :
@@ -77,7 +77,7 @@
 > [Install]<br>
 > WantedBy=multi-user.target<br>
 - Crtl + x (for save and exit)
-
+<br><br>
 > Reload deamon, start service, and status
 - sudo systemctl daemon-reload
 - sudo systemctl start odoo12 (for running always odoo12 on the startup service)
@@ -85,13 +85,10 @@
 - sudo service odoo12 status (check log status service odoo)
 - sudo service odoo12 stop (stop service odoo12)
 - sudo service odoo12 restart (restart service odoo12)
-
+<br><br>
 > Reference for documentation
 - <a href="https://linuxize.com/post/how-to-deploy-odoo-12-on-ubuntu-18-04/">https://linuxize.com/post/how-to-deploy-odoo-12-on-ubuntu-18-04/</a>
 - <a href="https://www.getopenerp.com/install-odoo-12-on-ubuntu-18-04/>https://www.getopenerp.com/install-odoo-12-on-ubuntu-18-04/</a>
 - <a href="https://www.a2hosting.com/kb/developer-corner/postgresql/managing-postgresql-databases-and-users-from-the-command-line>https://www.a2hosting.com/kb/developer-corner/postgresql/managing-postgresql-databases-and-users-from-the-command-line</a>
 
-
-
-
-
+Credit by : Bagus P.
