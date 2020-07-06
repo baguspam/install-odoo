@@ -88,7 +88,7 @@
 <br><br>
 > Reference for documentation
 - <a href="https://linuxize.com/post/how-to-deploy-odoo-12-on-ubuntu-18-04/">https://linuxize.com/post/how-to-deploy-odoo-12-on-ubuntu-18-04/</a>
-- <a href="https://www.getopenerp.com/install-odoo-12-on-ubuntu-18-04/>https://www.getopenerp.com/install-odoo-12-on-ubuntu-18-04/</a>
-- <a href="https://www.a2hosting.com/kb/developer-corner/postgresql/managing-postgresql-databases-and-users-from-the-command-line>https://www.a2hosting.com/kb/developer-corner/postgresql/managing-postgresql-databases-and-users-from-the-command-line</a>
+- <a href="https://www.getopenerp.com/install-odoo-12-on-ubuntu-18-04/">https://www.getopenerp.com/install-odoo-12-on-ubuntu-18-04/</a>
+- <a href="https://www.a2hosting.com/kb/developer-corner/postgresql/managing-postgresql-databases-and-users-from-the-command-line">https://www.a2hosting.com/kb/developer-corner/postgresql/managing-postgresql-databases-and-users-from-the-command-line</a>
 
 Credit by : Bagus P.
