@@ -1,0 +1,19 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Run Odoo",
+            "type": "python",
+            "request": "launch",
+            "stopOnEntry": false,
+            "console": "integratedTerminal",
+            "pythonPath": "/opt/odoo12/odoo-venv/bin/python3",
+            "program": "/opt/odoo12/odoo/odoo-bin",
+            "args": [
+                "--config=/home/<user_name>/Documents/name_folder_project/config/odoo.conf",
+                "--database=odoo12",
+                "--update=name_folder_project"
+            ]
+        }
+    ]
+}
